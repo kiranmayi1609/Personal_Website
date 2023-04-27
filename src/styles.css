@@ -16,14 +16,14 @@ ul{
 }
 a, a:hover{
     text-decoration: none;
-}
+} */
 /* h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 
 } */
 
 /*common*/
-.p-cursor{
+ .p-cursor{
     cursor:pointer;
 }
 .p-flex{
@@ -53,4 +53,13 @@ a, a:hover{
     width:25vw;
     position:absolute ;
     z-index:-1;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
 }

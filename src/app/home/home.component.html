@@ -1,26 +1,6 @@
-<!-- <section>
-    <div class="container">
-        <div class="row ">
-            <div class="col-sm-5">
-                <div class="p-profile"></div>
-            </div>
-            <div calss="col-sm-7">
-                
-                <span class="p-tag"> Software Developer </span>
-                <h1 class="mt-4">Kiranmayi Tummala</h1>
-                <p class="p-des mt-3 mb-4">Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
-                     since the 1500s, when an unknown printer took a galley of type and scrambled
-                  it to make a type specimen book.</p>
-                <a href="#"></a>
-            </div>
-        </div>
-    </div>
-      
-</section> -->
 
-<section>
-    <div class="container">
+<section >
+    <div class="container" *ngif="showHomeContent">
       <div class="row">
         <div class="col-sm-5">
           <div class="p-profile"></div>
@@ -38,7 +18,7 @@
                 it to make a type specimen book.</p>
             </div>
             <div class="col-sm-12">
-              <a href="#" class="btn btn-lg btn-primary ">Download CV</a>
+              <a routerLink="CV" class="btn btn-lg btn-primary ">Download CV</a>
             </div>
           </div>
         </div>
