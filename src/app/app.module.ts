@@ -14,6 +14,8 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperianceComponent } from './experiance/experiance.component';
 import { JourneyComponent } from './journey/journey.component';
+import { ProjectGridComponent } from './project-grid/project-grid.component';
+// import { ServciesComponent } from './servcies/servcies.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { JourneyComponent } from './journey/journey.component';
     PortfolioComponent,
     ExperianceComponent,
     JourneyComponent,
+    ProjectGridComponent,
+    // ServciesComponent,
 
   ],
   imports: [

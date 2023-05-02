@@ -1,1 +1,24 @@
 <p>projects works!</p>
+<!-- project Box -->
+<div class="container">
+    <div class="card">
+        <img class="card-img-top" src="{{ image }}" alt="{{ name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ name }}</h5>
+          <p class="card-text">{{ description }}</p>
+          <a href="{{ url }}" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+
+
+
+    <!-- <div class="row">
+        <div class="col-lg-3" *ngFor="let project of projectData">
+            <div class="projectBox">
+                <h2>{{ project.ProjectName }}</h2>
+               <img [src]="project.Img" alt="{{ project.ProjectName }} image">
+                <a [href]="project.website">Visit website</a>
+            </div>
+        </div>
+    </div> -->
+</div>

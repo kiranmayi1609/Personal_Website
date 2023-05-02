@@ -13,17 +13,19 @@
                 
             </ul> -->
             <!--nav-->
-            <app-header></app-header>
+            
             <div class="spacer"></div>
             <ul>
-                <li><a  routerLink="home"  >Home
+                <li><a  routerLink="home"   >Home
+                    <!-- *ngif="showHomeContent" -->
                     
                 </a></li>
-                <li><a href="#" routerLink="About" >About
+                <li><a href="#"  routerLink="About"  >About
                     
                 </a></li>
                 <li><a href="#" routerLink="Portfolio" >Portfolio</a></li>
                 <li><a href="#" routerLink="Experiance">Experiance</a></li>
+                <li><a href="#" routerLink="Project">Projects</a></li>
                 <li><a href="#" routerLink="Journey" >Journey</a></li>
                 <li><a href="#" routerLink="Contact" >Contact</a></li>
                 
@@ -41,21 +43,3 @@
     </div>
     </div>
 </header>
-<!-- <router-outlet></router-outlet> -->
-<!-- <div class="sidenav">
-    <div class="logo-container">
-        <button class="logo"></button>
-        <div class="logo-text"></div>
-        <button class="btn-close"></button>
-    </div>
-    <ul class="sidenav-nav">
-        <li class="sidenav-nav-item" *ngFor="let data of navData ">
-            <a  class="sidenav-nav-link"[routerLink]="[data.routerLink]">
-                <i class="sidenav-link-icon" [class]="data.icon"></i>
-                <span class="sidenav-link-text" *ngIf="collapsed">{{data.label}}</span>
-            </a>
-        </li>
-    </ul>
-
-</div> -->
-

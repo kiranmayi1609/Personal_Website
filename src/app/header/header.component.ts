@@ -9,15 +9,9 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  // constructor() {}
-  // ngOnInit(): void {
-    
-  // }
-  // collapsed=false;
-  // navData=navbarData;
-  // showText=false;
   
-  showHomeContent = true ;
+  
+  showHomeContent = false ;
   constructor(private route:Router) { }
   ngOnInit() {
     //subscribe to router events to check if the current URL is '/home'
