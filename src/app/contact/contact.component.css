@@ -1,4 +1,4 @@
-:host{
+/* :host{
     color: aquamarine;
     padding: 2rem 3rem;
 }
@@ -19,4 +19,40 @@ ul{
 .contact-info li{
     height:30px;
     font-size: 1.2rem;
-}
+} */
+
+/* Add your styles here */
+.contact {
+    padding: 50px 0;
+    color: #333;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .alert-success {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .alert-danger {
+    background-color: #f44336;
+    color: white;
+  }
+  
