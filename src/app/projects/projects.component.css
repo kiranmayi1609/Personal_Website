@@ -1,0 +1,30 @@
+.projects {
+    padding: 50px 0;
+  }
+  
+  .project-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  p {
+    color: #777;
+  }
+  

@@ -1,5 +1,5 @@
-.p-profile{
-    background: url(/assets/images/Devloper.png);
+/* .p-profile{
+   
     height:455px;
     width:80%;
     background-size: cover;
@@ -16,4 +16,59 @@
 .p-des{
     color:#acacac;
     width:80%;
+} */
+
+.home-section{
+    padding:50px 0;
+    color: #fff;
+
+}
+/* style the image */
+.col-md-6 img{
+    max-width:100%;
+    height:auto;
+    float:left;/* Float the image to the right side */
+}
+
+.col-md-6{
+    float: right;/* Float the content to the left side */
+}
+.image-container
+{
+    /* background-color:rgb(215, 143, 244);background color for the container */
+   padding:10%;/*Adjust padding as needed */
+    /* ensure the container wraps around the image */
+    
+    width:100%;
+    height: auto;
+    position: absolute;
+    top:100%;
+    left:50%;
+    /* transform: translate(-60%,-20%); */
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.63;
+    z-index:2;
+   
+    visibility: hidden;
+   
+    
+   
+    background-attachment: fixed;
+}
+    .image-container img{
+    max-width: 50%;/*Make sure the image fits within the container */
+    height:auto; /* Maintain the image's aspect ratio*/
+    display: inline-block;/* Remove extra space below the image */
+    position:relative;
+   /* place the rocket image horizonatally */
+    visibility: hidden;
+    border-radius: 50%;
+}
+/* for small screens and below ,revert the order back to default (left to right)*/
+@media (max-width:767px)
+{
+    .col-md-6{
+        order:initial;
+    }
 }

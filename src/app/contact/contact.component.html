@@ -1,5 +1,5 @@
 <!-- <p>contact works!</p> -->
-<div class="container">
+<!-- <div class="container">
     <h1>Contact </h1>
    <ul class="Social-Media ">
        <li><i class="bx bxl-gmail"></i></li>
@@ -11,4 +11,15 @@
        <li>kiranmayi1609@gmail.com</li>
    </ul>
 
-</div>
+</div> -->
+
+<!-- contact.component.html -->
+
+<form [formGroup]="formDetails" (ngSubmit)="handleSubmit()">
+    <input type="text" formControlName="firstName" placeholder="First Name" />
+    <input type="text" formControlName="lastName" placeholder="Last Name" />
+    <input type="email" formControlName="email" placeholder="Email Address" />
+    <input type="tel" formControlName="phone" placeholder="Phone No." />
+    <textarea rows="6" formControlName="message" placeholder="Message"></textarea>
+    <!-- <button type="submit"><span>{{ buttonText }}</span></button> -->
+  </form>

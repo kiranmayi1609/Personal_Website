@@ -1,6 +1,6 @@
 
-<section >
-    <!-- <div class="container" *ngif="!showHomeContent"> -->
+<!-- <section >
+   
       <div class="container" >
       <div class="row">
         <div class="col-sm-5">
@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-sm-12">
               <span class="p-tag">Software Developer</span>
-              <h1 class="mt-4">Kiranmayi Tummala</h1>
+              <h1 class="mt-4">{{dynamicName}}</h1>
             </div>
             <div class="col-sm-12">
               <p class="p-des mt-3 mb-4">Lorem Ipsum is simply dummy text of the printing and 
@@ -26,4 +26,42 @@
       </div>
     </div>
   </section>
-  
+   -->
+
+   <section class="home-section">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6 order-md-2">
+           <!--Img goes here -->
+           <img  class="image-container"src="/assets/images/header-img.jpg" alt="Rocket">
+         </div>
+          <div class="col-md-6 order-md-1">
+            <!--content goes here -->
+            <h2>{{title}}</h2>
+            <p>{{content}}</p>
+          </div>
+       </div>
+     </div>
+
+   </section>
+
+   <!-- <section class="banner" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xs-12 col-md-6 col-xl-7">
+          <div *ngIf="isVisible" class="animate__animated animate__fadeIn">
+            <span class="tagline">Welcome to my Portfolio</span>
+            <h1>Hi! I'm Kiranmayi <span class="txt-rotate" dataPeriod="1000" [appRotateText]="textArray"></span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+            <button (click)="connect()">Let’s Connect <fa-icon [icon]="faArrowRightCircle"></fa-icon></button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-xl-5">
+          <div *ngIf="isVisible" class="animate__animated animate__zoomIn">
+            <img [src]="headerImg" alt="Header Img" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   -->

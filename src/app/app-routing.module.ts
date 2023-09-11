@@ -8,8 +8,9 @@ import { JourneyComponent } from './journey/journey.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectsComponent } from './projects/projects.component';
 const routes: Routes = [
+  //its import components you've created and define the routes as you specified 
  {path:'',redirectTo:'/home',pathMatch:'full'},
-  // {path:'',component:HeaderComponent},
+ 
   {path :'home',component:HomeComponent},
   {path :'About',component:AboutComponent},
   {path :'Portfolio',component:PortfolioComponent},

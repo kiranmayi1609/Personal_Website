@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { FormsModule,ReactiveFormsModule} from '@angular/forms';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,11 +18,12 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperianceComponent } from './experiance/experiance.component';
 import { JourneyComponent } from './journey/journey.component';
-import { ProjectGridComponent } from './project-grid/project-grid.component';
+
 // import { ServciesComponent } from './servcies/servcies.component';
 
 @NgModule({
   declarations: [
+    //its componetns 
     AppComponent,
     HomeComponent,
     HeaderComponent,
@@ -28,15 +33,21 @@ import { ProjectGridComponent } from './project-grid/project-grid.component';
     ContactComponent,
     PortfolioComponent,
     ExperianceComponent,
-    JourneyComponent,
-    ProjectGridComponent,
+    JourneyComponent
+    
     // ServciesComponent,
+
 
   ],
   imports: [
+    //its modules 
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    FormsModule
+    // MatToolbarModule,
+    // MatSidenavModule
     
     
   ],

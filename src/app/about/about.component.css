@@ -1,3 +1,22 @@
 .about {
    color: rgb(21, 22, 21);
 }
+.p-profile{
+   
+   height:455px;
+   width:80%;
+   background-size: cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+.p-tag{
+   background: #989898;
+   color:#fff;
+   padding:  5px 10px;
+   font-size: 14px;
+
+}
+.p-des{
+   color:#acacac;
+   width:80%;
+}
