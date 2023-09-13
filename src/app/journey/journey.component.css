@@ -1,0 +1,39 @@
+/* Add your styles here */
+.journey {
+    padding: 40px 0;
+  }
+  
+  .journey h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .journey-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #007bff; /* Blue color */
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+  }
+  

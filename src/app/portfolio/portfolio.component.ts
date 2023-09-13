@@ -1,3 +1,4 @@
+// import { PortfolioService } from './portfolioService';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,10 +6,22 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './portfolio.component.html',
   styleUrls: ['./portfolio.component.css']
 })
-export class PortfolioComponent implements OnInit{
-  constructor() {}
-  ngOnInit(): void {
+export class PortfolioComponent {
+  // portfolioItems=[];
+
+  // constructor(private portfolioService:PortfolioService) {}
+
+  // ngOnInit(): void {
+  //   //fetch portfolio items from the service 
+  //   try{
+  //     this.portfolioItems=this.portfolioService.getPortfolioItems();
+
+  //   }catch(error){
+  //      console.error('Error fetching portfolio items:' ,error );
+  //   }
     
-  }
+    
+    
+  // }
 
 }

@@ -17,6 +17,21 @@ export class HeaderComponent  {
     this.showHomeContent=!this.showHomeContent;
 
   }
+  // constructor(private router:Router) {}
+  // scrollToComponent(componentName:string):void{
+  //   const element=document.getElementById(componentName);
+  //   if(element){
+  //     element.scrollIntoView({
+  //       behavior:'smooth',
+  //       block:'start',
+  //       inline:'nearest',
+  //     });
+  //   }
+  // }
+  // navigateTo(componentName:string):void{
+  //   this.router.navigate([componentName]);
+  //   this.scrollToComponent(componentName);
+  // }
   
   
   // // showHomeContent = false ;

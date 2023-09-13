@@ -24,7 +24,7 @@
     <!-- <button type="submit"><span>{{ buttonText }}</span></button> -->
   <!-- </form> -->
 
-  <section class="contact">
+  <!-- <section class="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -46,6 +46,41 @@
               <textarea rows="6" class="form-control" placeholder="Message" [(ngModel)]="formDetails.message" name="message" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+          <div *ngIf="status.message" class="alert" [ngClass]="status.success ? 'alert-success' : 'alert-danger'">
+            {{ status.message }}
+          </div>
+        </div>
+        <div class="col-md-6"> -->
+          <!-- Add an image or map here if needed -->
+        <!-- </div>
+      </div>
+    </div>
+  </section>
+   -->
+
+   <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <form (ngSubmit)="handleSubmit()" [formGroup]="formDetails">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="First Name" formControlName="firstName" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Last Name" formControlName="lastName" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email Address" formControlName="email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" placeholder="Phone No." formControlName="phone" required>
+            </div>
+            <div class="form-group">
+              <textarea rows="6" class="form-control" placeholder="Message" formControlName="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="!formDetails.valid">Send</button>
           </form>
           <div *ngIf="status.message" class="alert" [ngClass]="status.success ? 'alert-success' : 'alert-danger'">
             {{ status.message }}

@@ -18,6 +18,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ExperianceComponent } from './experiance/experiance.component';
 import { JourneyComponent } from './journey/journey.component';
+import { WelcomeMessageComponent } from './welcome-message/welcome-message.component';
 
 // import { ServciesComponent } from './servcies/servcies.component';
 
@@ -33,7 +34,8 @@ import { JourneyComponent } from './journey/journey.component';
     ContactComponent,
     PortfolioComponent,
     ExperianceComponent,
-    JourneyComponent
+    JourneyComponent,
+    WelcomeMessageComponent
     
     // ServciesComponent,
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup,ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup,ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -8,15 +8,16 @@ import { FormBuilder, FormGroup,ReactiveFormsModule } from '@angular/forms';
 })
 export class ContactComponent  {
   formDetails:FormGroup;
-
+  status={message:'',success:true};//Initilaize status object 
+ 
   constructor(private fb:FormBuilder){
     //Create a FormGroup with initial form control values 
     this.formDetails=this.fb.group({
-      firstName:'',
-      lastName:'',
-      email:'',
-      phone:'',
-      message:'',
+      firstName:['',Validators.required],
+      lastName:['',Validators.required],
+      email:['',Validators.required,Validators.email],
+      phone:['',Validators.required],
+      message:['',Validators.required],
     });
   }
   //Handle form submission 
@@ -29,6 +30,13 @@ export class ContactComponent  {
       console.log('Form submitted with values:',this.formDetails.value);
       //Reset the form after successful submission 
       this.formDetails.reset();
+      //you can set status message and success flag here 
+      this.status.message='Form submitted successfully';
+      this.status.success=true;
+    }else {
+      //if the form invalid ,set status message and success flag accordingly
+      this.status.message='Form submission failed.Please check your inputs. ' 
+      this.status.success=false;
     }
   }
 

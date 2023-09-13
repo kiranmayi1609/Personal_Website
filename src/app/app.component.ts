@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myPortfolio';
+  // showWelcomeMessage=true;
+  // ngOnInit(){
+  //   setTimeout(()=>{
+  //     this.showWelcomeMessage=false;
+  //   },3000);
+  // }
 }

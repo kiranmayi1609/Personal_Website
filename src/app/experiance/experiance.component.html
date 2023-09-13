@@ -1,1 +1,17 @@
 <p>experiance works!</p>
+<section class="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-items">
+        <div class="experience-item" *ngFor="let job of jobHistory">
+          <h3>{{ job.position }}</h3>
+          <p>{{ job.company }}</p>
+          <p class="date">{{ job.startDate }} - {{ job.endDate }}</p>
+          <ul>
+            <li *ngFor="let responsibility of job.responsibilities">{{ responsibility }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  

@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./journey.component.css']
 })
 export class JourneyComponent {
+  milestones = [
+    {
+      year: '2020',
+      description: 'Started my journey in programming.'
+    },
+    {
+      year: '2021',
+      description: 'Data Analytics '
+    }
+    
+  ];
 
 }
