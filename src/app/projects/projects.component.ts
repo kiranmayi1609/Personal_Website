@@ -27,6 +27,7 @@ projects =[
   {
     title:"CryptoCurrency Portfolio Mgmt ",
     description:"Angualr framework & Asp.net web api with Entity framework ",
+    imageUrl:'/assets/images/crypto.JPG'
   },
   {
     title:"Todo-app",
