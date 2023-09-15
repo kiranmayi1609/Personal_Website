@@ -47,9 +47,10 @@ h2 {
 /* Style for the project box content */
 .project-box{
  
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(145, 58, 119);
   border:1px solid rgb(78, 14, 152);
   border-radius:5px;
+  box-shadow: 0 3px 10px;
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease; /* Add a transition effect */
