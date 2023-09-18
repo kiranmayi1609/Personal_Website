@@ -11,7 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
-import { ProjectsComponent } from './projects/projects.component';
+
 import { AboutComponent } from './about/about.component';
 import { CVComponent } from './cv/cv.component';
 import { ContactComponent } from './contact/contact.component';
@@ -28,7 +28,6 @@ import { WelcomeMessageComponent } from './welcome-message/welcome-message.compo
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ProjectsComponent,
     AboutComponent,
     CVComponent,
     ContactComponent,

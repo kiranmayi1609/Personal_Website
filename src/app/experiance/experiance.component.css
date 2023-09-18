@@ -1,4 +1,7 @@
 /* Add your styles here */
+.experience-bg {
+  background: linear-gradient(165deg, #feba4f, #ff6f02);
+}
 .experience {
     padding: 40px 0;
   }

@@ -6,15 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./journey.component.css']
 })
 export class JourneyComponent {
-  milestones = [
+  milestones :any []=[
     {
-      year: '2020',
+      year: '2021',
+      title:'',
       description: 'Started my journey in programming.'
     },
     {
-      year: '2021',
-      description: 'Data Analytics '
+      year: '2019',
+      title:'',
+      description: 'REDI School Digital integration  '
+    },
+    //Add more timeline items here as needed 
+    {
+      year: '2019',
+      title:'',
+      description: 'REDI School Digital integration  '
+    },
+    {
+      year: '2019',
+      title:'',
+      description: 'REDI School Digital integration  '
     }
+
     
   ];
 
