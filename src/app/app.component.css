@@ -1,6 +1,7 @@
 .app-body{
     min-height: 85vh;
-    margin-top:150
+    margin-top:150;
+    /* background-color:#121212; */
 
 }
 .centered-welcome{

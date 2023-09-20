@@ -1,9 +1,14 @@
 /* Add your styles here */
 .experience-bg {
-  background: linear-gradient(165deg, #feba4f, #ff6f02);
+  /* background: linear-gradient(165deg, #feba4f, #ff6f02); */
+   /* background-color: #393737;  */
+   border-radius: 50px;
+  /* background-image: url(..\assets\images\color-sharp.png); */
+  
 }
 .experience {
     padding: 40px 0;
+    border-radius:10px ;
   }
   
   .experience h2 {

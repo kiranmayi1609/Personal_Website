@@ -1,7 +1,10 @@
 /* Style for the container and title */
 .portfolio-bg 
 {
-    background:linear-gradient(165deg, #9071e9, #ce4df0);
+    /* background:linear-gradient(165deg, #9071e9, #ce4df0); */
+    /* background-color: #393737; */
+    border-radius: 50;
+
 }
 .projects {
     padding: 40px 0;
