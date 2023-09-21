@@ -18,8 +18,11 @@ html,body{
     font-size: 18px;
     color:#fff;
     font-family: 'Centra',sans-serif;
-    /* background-color:#121212; */
-    background-image: url('/assets/images/sub-bg.png');
+     /* background-color:#262424;  */
+    /* background-image: url('/assets/images/sub-bg3.jpg'); */
+    /* backdrop-filter: blur(10px); */
+    /* background: linear-gradient(45deg,#0000, #a4718b, #506eaa); */
+    /* background: linear-gradient(45deg, #000000, #800080, #ff66b2); */
     
 
 }
@@ -50,7 +53,7 @@ body {
 
 
 /* Reset margin and padding for all components within the application */
-/* app-root,
+app-root,
 app-header,
 app-about,
 app-experience,
@@ -59,7 +62,7 @@ app-journey,
 app-contact {
     margin: 0;
     padding: 0;
-} */
+}
 app-about,
 app-experiance,
 app-portfolio,

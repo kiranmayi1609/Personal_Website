@@ -4,6 +4,9 @@
   
    
 }
+/* .col-sm-6{
+   padding-left: px;
+} */
 .text-container{
    padding: 20px;
    margin-block:15px;
@@ -23,6 +26,9 @@
    max-width: 100%;
    display: block;
    animation : bounceUpdown 0.6s ease-in-out infinite ;
+}
+.right-aligned {
+   padding:5px;
 }
 .image-container:hover img{
    transform:translateY(-13px)
