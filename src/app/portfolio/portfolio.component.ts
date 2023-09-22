@@ -32,7 +32,8 @@ export class PortfolioComponent {
       frontendLink:'https://github.com/kiranmayi1609/WebAPI_Angular ',
       webApiLink:'https://github.com/kiranmayi1609/CryptoCurrency',
       githubIoLink:'https://kiranmayi1609.github.io/WebAPI_Angular/',
-      isZoomed:false, //add this property to control zoom 
+      isZoomed:false, //add this property to control zoom,
+     isClicked:false,
     },
     
   
@@ -42,7 +43,8 @@ export class PortfolioComponent {
       imageUrl:'/assets/images/foodorder.JPG',
       frontendLink:'https://github.com/kiranmayi1609/myJavascript_H2/tree/main/Food_order',
       githubIoLink:'https://kiranmayi1609.github.io/myJavascript_H2/',
-      isZoomed:false //add this property to control zoom 
+      isZoomed:false //add this property to control zoom,
+     
     },
   
     {
@@ -51,7 +53,9 @@ export class PortfolioComponent {
       imageUrl:'/assets/images/Todo app.JPG',
       frontendLink:'https://github.com/kiranmayi1609/myJavascript_H2',
       githubIoLink:'https://kiranmayi1609.github.io/myJavascript_H2/',
-      isZoomed:false, //add this property to control zoom 
+      isZoomed:false, //add this property to control zoom,
+      isClicked:false,
+    
     },
     {
       title:"Blazor Crud operations ",
@@ -59,7 +63,7 @@ export class PortfolioComponent {
       githubLink:'',
       githubIoLink:'',
       isZoomed:false, //add this property to control zoom 
-      
+        
     }
   
   
@@ -71,6 +75,7 @@ export class PortfolioComponent {
   // }
   zoomImage(project:any):void 
   {
+    project.isClicked=true;
     // const image=new Image();
     // image.src=imageUrl;
     // image.classList.add('project-image','zoomed');

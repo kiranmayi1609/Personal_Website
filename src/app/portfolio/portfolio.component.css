@@ -2,7 +2,7 @@
 .portfolio-bg 
 {
     /* background:linear-gradient(165deg, #9071e9, #ce4df0); */
-    /* background-color: #393737; */
+     background-color: #393737; 
     border-radius: 50;
 
 }
@@ -44,41 +44,72 @@
     transform: scale(1.05); /* Enlarge the box on hover */
   }
   /*Style for the project grid */
-  .project-grid{
+  /* .project-grid{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
     grid-gap:20px;
     justify-items: center;
     align-items: start;
-  }
+  } */
   
   /* Style for the project box content */
   .project-box{
-   
-    background-color: rgb(145, 58, 119);
-    border:1px solid rgb(78, 14, 152);
-    border-radius:5px;
+   flex:1 1 30rem;
+    /* background-color: rgb(145, 58, 119); */
+    /* border:1px solid rgb(78, 14, 152); */
+    border-radius:2rem;
     box-shadow: 0 3px 10px;
-    padding: 20px;
+    padding: 3rem 2rem 4rem;
     text-align: center;
     transition: transform 0.3s ease; /* Add a transition effect */
-    height: 300px; /* Set a fixed height for the boxes */
+    height: 600px; /* Set a fixed height for the boxes */
     overflow: hidden; /* Hide overflowing content */
     background-size: cover; /* Ensure the background image covers the box */
+   
     
   }
+  /* .project-box
+  {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap:2.5rem;
+
+  } */
+
   .project-box:hover{
     transform: scale(1.5); /*Enlarge the box on hover */
   }
   .project-box h3 {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 5px;
+    /* margin-top: 5px; */
   }
   
   .project-box p {
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
+
+ .project-box .project-details{
+   position:absolute;
+   bottom: 0;
+   left:0;
+   width:100%;
+   height: 100%;
+   background:linear-gradient(rgba(0,0,0,.1), rgb(42, 127, 146));
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+   text-align:center;
+   padding :0 4rem;
+
+   transition:.8s ease;
+ }
+ .project-box:hover .project-details{
+   transform:translateY(0);
+ }
+
   /* style for the project image */
   .project-image-container{
     position:relative;

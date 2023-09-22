@@ -17,6 +17,12 @@ export class HeaderComponent  {
     this.showHomeContent=!this.showHomeContent;
 
   }
+  scrollToSection(sectionId:string){
+    const element=document.getElementById(sectionId);
+    if(element){
+      element.scrollIntoView({behavior:'smooth'});
+    }
+  }
   // constructor(private router:Router) {}
   // scrollToComponent(componentName:string):void{
   //   const element=document.getElementById(componentName);
