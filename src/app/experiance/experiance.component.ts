@@ -10,7 +10,7 @@ export class ExperianceComponent {
     {
       position: 'Internship',
       Organization: 'TEC praktic center',
-      startDate: 'April 2020',
+      startDate: 'April 2021',
       endDate: 'Present',
       responsibilities: [
         'Developing and maintaining web applications.',

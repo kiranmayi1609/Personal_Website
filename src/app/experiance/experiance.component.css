@@ -1,16 +1,31 @@
 /* Add your styles here */
-/* .experience-bg { */
-  /* background: linear-gradient(165deg, #feba4f, #ff6f02); */
-   /* background-color: #393737;  */
-  
-  /* background-image: url(..\assets\images\color-sharp.png); */
-  
-/* } */
+
+.experience-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(165deg, #feba4f, #ff6f02);
+  background-color: #393737;
+  overflow: hidden;
+  position: relative;
+}
 .experience {
-    padding: 40px 0;
-    border-radius:10px ;
-  }
-  
+  padding: 60px 0;
+  border-radius: 10px;
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  padding: 40px 0;
+  border-radius: 10px;
+  background: linear-gradient(165deg, #feba4f, #ff6f02);
+  position: relative;
+  z-index: 2;
+}
+   
   .experience h2 {
     font-size: 24px;
     margin-bottom: 20px;

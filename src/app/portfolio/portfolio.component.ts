@@ -32,8 +32,8 @@ export class PortfolioComponent {
       frontendLink:'https://github.com/kiranmayi1609/WebAPI_Angular ',
       webApiLink:'https://github.com/kiranmayi1609/CryptoCurrency',
       githubIoLink:'https://kiranmayi1609.github.io/WebAPI_Angular/',
-      isZoomed:false, //add this property to control zoom,
-     isClicked:false,
+      // isZoomed:false, 
+     isExpanded:false,
     },
     
   
@@ -73,9 +73,9 @@ export class PortfolioComponent {
   //   const image=event.target as HTMLElement;
   //   image.classList.toggle('zommed');
   // }
-  zoomImage(project:any):void 
-  {
-    project.isClicked=true;
+  // zoomImage(project:any):void 
+  // {
+  //   project.isClicked=true;
     // const image=new Image();
     // image.src=imageUrl;
     // image.classList.add('project-image','zoomed');
@@ -84,7 +84,11 @@ export class PortfolioComponent {
     // image.addEventListener('click',()=>{
     //   document.body.removeChild(image);
     // });
-    project.iszoomed=!project.isZoomed;
+  //   project.iszoomed=!project.isZoomed;
+  // }
+  viewProjectDetails(project:any)
+  {
+    project.isExpanded=!project.isExpanded;
   }
   
   
