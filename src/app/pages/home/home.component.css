@@ -18,93 +18,282 @@
     width:80%;
 } */
 
-.home-section{
+/* .home-section{
     padding:50px 0;
     color: #fff;
 
-}
+} */
 /* style the image */
-.col-md-6 img{
+/* .col-md-6 img{
     max-width:100%;
     height:auto;
-    float:left;/* Float the image to the right side */
-}
+    float:left; 
+} */
 
-.col-md-6{
-    float: right;/* Float the content to the left side */
-}
-.image-container
-{
+/* .col-md-6{
+    float: right;
+} */
+/* .image-container
+{ */
     /* background-color:rgb(215, 143, 244);background color for the container */
-   padding:10%;/*Adjust padding as needed */
+   /* padding:10%;Adjust padding as needed */
     /* ensure the container wraps around the image */
     
-    width:100%;
+    /* width:100%;
     height: auto;
     position: absolute;
     top:100%;
-    left:50%;
+    left:50%; */
     /* transform: translate(-60%,-20%); */
-    object-fit: cover;
+    /* object-fit: cover;
     object-position: center;
     opacity: 0.63;
     z-index:2;
    
-    visibility: hidden;
+    visibility: hidden; */
    
     
    
-    background-attachment: fixed;
-}
-    .image-container img{
-    max-width: 50%;/*Make sure the image fits within the container */
-    height:auto; /* Maintain the image's aspect ratio*/
-    display: inline-block;/* Remove extra space below the image */
-    position:relative;
+    /* background-attachment: fixed; */
+/* } */
+    /* .image-container img{
+    max-width: 50%; */
+    /*Make sure the image fits within the container */
+    /* height:auto;  */
+    /* Maintain the image's aspect ratio*/
+    /* display: inline-block; */
+    /* Remove extra space below the image */
+    /* position:relative; */
    /* place the rocket image horizonatally */
-    visibility: hidden;
-    border-radius: 50%;
-}
+    /* visibility: hidden;
+    border-radius: 50%; */
+/* } */
 /* for small screens and below ,revert the order back to default (left to right)*/
-@media (max-width:767px)
+/* @media (max-width:767px)
 {
     .col-md-6{
         order:initial;
     }
-}
+} */
 
-.centered-welcome{
+/* .centered-welcome{
     position:fixed;
     top:0;
     left:0;
     width:100%;
     height:100%;
-    background-color: rgb(103, 8, 113)/*set the curain background color*/;
-    display:flex;
+    background-color: rgb(103, 8, 113) */
+    /*set the curain background color*/;
+    /* display:flex;
     justify-content: center;
     align-items:center;
     z-index:9999;
     animation:fadeOut 10s ease-in-out forwards;
 
-}
-.welcome-message{
+} */
+/* .welcome-message{
     text-align:center;
     color:#fff;
     font-size:24px;
     padding:20px;
     background-color:#333
-}
-@keyframes fadeOut{
+} */
+/* @keyframes fadeOut{
     0%{
         /* transform:translateY(0); */
-        opacity: 1;
+        /* opacity: 1;
     }
-    100%{
+    100%{ */
         /* transform: translateY(-100%); */
-        opacity: 0;
+        /* opacity: 0;
         visibility: hidden;
+    } */
+/* } */
+/* .hidden {
+    display: none; */
+    /*Hide the curtain when raised */
+/* } */
+
+/* .banner { */
+    /* background-image: url('/assets/images/sub-bg.png');
+    height:700px; */
+    /* background-position: center center;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+} */
+/* .centered-text{
+    text-align:center;
+} */
+/* .centered-text h1{
+    font-size:60px;
+} */
+/* .centered-text p{
+    font-size:24px;
+} */
+/* .content{
+    top:10%;
+    left:20%;
+    position: absolute;
+} */
+/* .content h1 { */
+    /* color:#fff; */
+    /* font-size: 60px;
+    font-weight:bold;
+
+} */
+/* .content h1::before{ */
+    /* content:"\1F44B"; */
+    /* Unicode for the waving hand emoji*/
+    /* font-size:60px;
+    color: #3fc060;
+    margin-right:10px;
+} */
+/* .content a{
+    text-decoration: none;
+    background-color: #fff; */
+    /* color:var(); */
+    /* padding: 15px 20px ;
+    border-radius:5px;
+    margin-top:20px;
+} */
+/* .content a:hover
+{
+    background-color:var(--primary-color);
+    color:#fff;
+} */
+/* .projectBox{
+    background-color: #000;
+    padding: 20px 10px;
+    border-radius: 5px;
+    text-align: center;
+} */
+/* .projectBox img{
+    width:300px;
+    height:200px;
+} */
+/* .projectBox h2{
+    font-size: 50px;
+    font-weight: bold;
+    /* color:var(); */
+/* } */ 
+/* .projectBox p{
+    font-size: 20px;
+    color: #fff;
+} */
+/* .projectDetail_box
+{
+    padding :10px 5px;
+} */
+/* .projectDetail_box img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:5px;
+} */
+/* .projectDetail_box h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+
+} */
+/* .viewmorebtn
+{
+    text-decoration:none;
+    background-color: var();
+     color:#fff;
+    padding:10px 10px;
+    border-radius:5px;
+    font-size: 18px;
+    margin-bottom:20px;
+} */
+/* @media screen and (max-width:600px) {
+    .banner{
+        height:700px;
+        
     }
-}
-.hidden {
-    display: none;/*Hide the curtain when raised */
-}
+    
+} */
+
+/* .container {
+    text-align:center; */
+    /* background-color:whitesmoke; */
+    /* padding: 30px;
+    border-radius:10px;
+ } */
+ /* .content-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ } */
+ /* .content{
+    flex:1;
+    text-align:left;
+    padding:20px;
+ } */
+ /* Style for the heading */
+ 
+ .container h1{
+    font-size:36px;
+    font-weight:bold;
+    margin:20px 0;
+    color: black;
+ }
+ /* Style for the subtitle/tagline */
+ .p-tag{
+    font-size:18px;
+    color:#555;
+ 
+ }
+ /* Style for the dynamic name */
+ .container h1.mt-4{
+    font-size:24px;
+    margin-top:20px;
+ }
+ /* Style for the description text */
+ .p-des {
+    font-size: 16px;
+    color: #777;
+    margin: 20px 0;
+  }
+ 
+  /*Style for the image container */
+  .image-container{
+     flex:1;
+     text-align:center;
+  }
+ 
+ .image-container img {
+    max-width: 100%;
+    display: block;
+    animation : bounceUpdown 0.6s ease-in-out infinite ;
+    /* space related to the images  */
+     padding:100px;
+ } 
+ @keyframes bounceUpdown{
+    0%,100%{
+       transform:translateY(0);
+    }
+    50%{
+       transform:translateY(-20px);
+    }
+ }
+ 
+  
+  .right-aligned{
+     float:right;
+  }
+  /* Keyframes for swinging animation */
+ 
+  .tagline{
+      font-weight:700;
+      letter-spacing:0.8px;
+      padding:8px 10px;
+      background:linear-gradient(90.21deg,rgba(170,54,124,0.5) -5.91%,rgba(74,47,189,0.5) 111.58%);
+      border:1px solid rgba(255,255,255,0.5);
+      font-size:20px;
+      margin-bottom:16px;
+      display:inline-block;
+  }

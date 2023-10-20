@@ -29,7 +29,7 @@
   </div>
 </section>
 </div> -->
-<div class="portfolio-bg">
+<!-- <div class="portfolio-bg">
   <section class="projects" id="projects">
     <div class="container">
       <h2>Work I have done</h2>
@@ -53,4 +53,17 @@
       </div>
     </div>
   </section>
+</div>
+ -->
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-4" *ngFor="let pd of projectData">
+     
+      <div class="projectbox mt-3 mb-3">
+        <img src="{{pd.projectImg}}"/>
+               <h1>{{pd.projectName}}</h1>
+        <!-- <p>{{pd.projec}}</p> -->
+      </div>
+    </div>
+  </div>
 </div>

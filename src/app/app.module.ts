@@ -9,16 +9,17 @@ import { FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { HeaderComponent } from './sharepage/header/header.component';
 
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './pages/about/about.component';
 import { CVComponent } from './cv/cv.component';
-import { ContactComponent } from './contact/contact.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { ExperianceComponent } from './experiance/experiance.component';
-import { JourneyComponent } from './journey/journey.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ExperianceComponent } from './pages/experiance/experiance.component';
+import { JourneyComponent } from './pages/journey/journey.component';
 import { WelcomeMessageComponent } from './welcome-message/welcome-message.component';
+import { FooterComponent } from './sharepage/footer/footer.component';
 
 // import { ServciesComponent } from './servcies/servcies.component';
 
@@ -34,7 +35,8 @@ import { WelcomeMessageComponent } from './welcome-message/welcome-message.compo
     PortfolioComponent,
     ExperianceComponent,
     JourneyComponent,
-    WelcomeMessageComponent
+    WelcomeMessageComponent,
+    FooterComponent
     
     // ServciesComponent,
 

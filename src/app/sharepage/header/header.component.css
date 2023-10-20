@@ -1,4 +1,4 @@
-header {
+/* header {
     padding :10px 0;
 
 }
@@ -50,6 +50,31 @@ header ul li a:hover::after,header ul li a.is-active::after{
 }
 .spacer{
     flex :1 1 auto;
-} 
+}  */
 
-                
+.navbar {
+    background-image: url('/assets/images/sub-bg.png');
+    background-size: cover;
+}
+/* .navbar-brand{
+    color:#fff;
+} */
+.navbar-nav .nav-link{
+    color:#fff;
+}
+
+a.navbar-brand.logo-style{
+    font-size:36px;
+    font-weight:bold;
+    color:#33c9ff;
+}
+.navbar-light .navbar-nav .nav-link.active-link
+{ 
+    /* color:var(--primary-color); */
+     font-weight: bold;
+     
+}   
+.nav {
+    background-image: url('/assets/images/sub-bg.png'); 
+    width:100vh;
+}      

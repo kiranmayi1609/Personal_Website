@@ -9,20 +9,20 @@ import { NavigationEnd, Router } from '@angular/router';
 })
 export class HeaderComponent  {
   //Define data properties here 
-  showHomeContent:boolean=true;//property for ngIf 
+  // showHomeContent:boolean=true;//property for ngIf 
 
   //Method to toggle the value of showHomeContent 
-  toggleHomeContent()
-  {
-    this.showHomeContent=!this.showHomeContent;
+  // toggleHomeContent()
+  // {
+  //   this.showHomeContent=!this.showHomeContent;
 
-  }
-  scrollToSection(sectionId:string){
-    const element=document.getElementById(sectionId);
-    if(element){
-      element.scrollIntoView({behavior:'smooth'});
-    }
-  }
+  // }
+  // scrollToSection(sectionId:string){
+  //   const element=document.getElementById(sectionId);
+  //   if(element){
+  //     element.scrollIntoView({behavior:'smooth'});
+  //   }
+  // }
   // constructor(private router:Router) {}
   // scrollToComponent(componentName:string):void{
   //   const element=document.getElementById(componentName);

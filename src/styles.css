@@ -53,7 +53,7 @@ body {
 
 
 /* Reset margin and padding for all components within the application */
-app-root,
+/* app-root,
 app-header,
 app-about,
 app-experience,
@@ -62,17 +62,17 @@ app-journey,
 app-contact {
     margin: 0;
     padding: 0;
-}
-app-about,
+} */
+/* app-about,
 app-experiance,
 app-portfolio,
 app-journey,
 app-contact 
 {
     background: transparent;
-}
+} */
 
-p{
+/* p{
     margin:0;
 }
 ul{
@@ -82,14 +82,14 @@ ul{
 }
 a, a:hover{
     text-decoration: none;
-} */
+} */ 
 /* h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 
 } */
 
 /*common*/
- .p-cursor{
+ /* .p-cursor{
     cursor:pointer;
 }
 .p-flex{
@@ -102,32 +102,20 @@ a, a:hover{
 .p-flex-jc-sb{
     justify-content: space-between;
 
-}
-
-
-
-/*wrapper class*/
-
-/* .p-wrapper
-{
-    position: relative;
-}
-.p-wrapper::before{
-    content:'';
-   
-    padding:100px 0;
-    height:100vh;
-    width:25vw;
-    position:absolute ;
-    z-index:-1;
-}
+} */
 
 *{
+    padding:0;
     margin:0;
-    padding: 0;
-    box-sizing: border-box;
 }
-body{
-    position: relative;
-} */
+:root{
+    --primary-color: #3FC060;
+    --secondary-color:#162328;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    height:100vh;
+}
+
+
 
