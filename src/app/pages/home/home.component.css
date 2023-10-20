@@ -258,7 +258,18 @@
     color: #777;
     margin: 20px 0;
   }
- 
+  .text-center h1{
+      font-size:24px;
+
+  }
+  .hand-emoji {
+    font-size: 24px;
+    /* content:"\1F44B"; */
+    font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'EmojiOne', 'Apple Color Emoji', 'Segoe UI Symbol', sans-serif;
+    color: #3FC060; /* Set the desired color for the emoji */
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
   /*Style for the image container */
   .image-container{
      flex:1;
